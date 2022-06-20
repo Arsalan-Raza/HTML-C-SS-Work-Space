@@ -1,0 +1,154 @@
+body {
+  background-color: #f7f7f7;
+}
+
+#nav-bar-btn {
+  margin: 10px;
+}
+.line {
+  border-left: 3px solid #007bff;
+  height: 34px;
+  margin: 12px 0px;
+}
+.Three-lines {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35px;
+  height: 35px;
+  margin-top: 14px;
+}
+.l {
+  width: 4px;
+  background-color: #007bff;
+  height: 30px;
+}
+#cal {
+  text-align: right;
+}
+#time_date {
+  padding: 25px 25px;
+}
+.col-6 h5 {
+  font-weight: 400;
+}
+#UTC {
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px;
+}
+#cal p img {
+  margin-left: 10px;
+}
+#cal p a {
+  width: 82px;
+  color: #000;
+  font-weight: 700;
+  padding: 9px;
+  margin-left: 10px;
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+}
+#box-01 {
+  height: 135px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("images/orange_img.jpg");
+}
+#box-02 {
+  height: 135px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("images/green_img.jpg");
+}
+#box-03 {
+  height: 135px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("images/blue_img_05.jpg");
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+#prnt_information {
+  padding-top: 30px;
+}
+#information {
+  background-color: #ffff;
+}
+#section {
+  padding: 10px;
+  height: 166px;
+  margin: 10px;
+  display: grid;
+  border-bottom: 2px solid grey;
+}
+#Top-Floinks {
+  display: grid;
+  padding-bottom: 10px;
+}
+
+#Top-Floinks h1 {
+  font-size: 22px;
+  color: #000;
+  float: left;
+  font-weight: 400;
+}
+#Top-Floinks h1 span {
+  font-size: 17px;
+  float: right;
+  color: orangered;
+}
+#section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  float: left;
+  margin-bottom: -17px;
+}
+#section h2 span {
+  font-size: 14px;
+  color: #717171;
+  font-weight: 400;
+  float: right;
+}
+#section p {
+  font-size: 15px;
+  margin: 15px 0;
+  color: #717171;
+}
+#section a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #096eb4;
+}
+#section a span {
+  float: right;
+}
+
+#network {
+  padding: 15px;
+}
+#network-head div p {
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #000;
+}
+#network-head_02 p {
+  font-size: 14px !important;
+  color: #717171 !important;
+}
+#network-head_02 p button {
+  font-size: 14px;
+  background: #f15324;
+  border-color: #f15324;
+}
+.network_logo {
+  text-align: center;
+  display: block;
+}
+.network_logo h1 {
+  font-size: 25px;
+}
