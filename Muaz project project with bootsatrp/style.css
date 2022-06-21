@@ -48,107 +48,309 @@ body {
   background-color: #d3d3d3;
   border-color: #d3d3d3;
 }
-#box-01 {
-  height: 135px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("images/orange_img.jpg");
-}
-#box-02 {
-  height: 135px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("images/green_img.jpg");
-}
-#box-03 {
-  height: 135px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url("images/blue_img_05.jpg");
-}
-#boxes {
+
+.box-01 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ec5125;
 }
-#prnt_information {
-  padding-top: 30px;
+.box-01,
+.box-02,
+.box-03 h5 {
+  color: #fff;
 }
-#information {
-  background-color: #ffff;
+.fa-link:before {
+  color: #fff;
+  font-size: 70px;
 }
-#section {
-  padding: 10px;
-  height: 166px;
-  margin: 10px;
-  display: grid;
-  border-bottom: 2px solid grey;
-}
-#Top-Floinks {
-  display: grid;
-  padding-bottom: 10px;
-}
-
-#Top-Floinks h1 {
-  font-size: 22px;
-  color: #000;
-  float: left;
-  font-weight: 400;
-}
-#Top-Floinks h1 span {
-  font-size: 17px;
-  float: right;
-  color: orangered;
-}
-#section h2 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-  float: left;
-  margin-bottom: -17px;
-}
-#section h2 span {
-  font-size: 14px;
-  color: #717171;
-  font-weight: 400;
-  float: right;
-}
-#section p {
-  font-size: 15px;
+.fa-solid,
+.fas {
   margin: 15px 0;
-  color: #717171;
 }
-#section a {
-  font-size: 18px;
-  text-decoration: none;
-  color: #096eb4;
+.fa-wifi:before {
+  content: "\f1eb";
+  color: #fff;
+  font-size: 70px;
 }
-#section a span {
-  float: right;
+.box-01 h5 span {
+  font-size: 24px;
+}
+.box-02 h5 span {
+  font-size: 24px;
+}
+.box-03 h5 span {
+  font-size: 24px;
+}
+.box-02 {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #30cc3b;
 }
 
-#network {
-  padding: 15px;
+.box-03 {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0863b4;
 }
-#network-head div p {
-  text-transform: capitalize;
-  font-size: 20px;
+.information {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.heading h5 {
+  font-size: 17px;
+}
+.heading h2 {
+  text-align: right;
+  font-size: 16px;
+  color: #ec5125;
+}
+.section-01 {
+  margin-top: 15px;
+}
+.section-01 h5 {
+  font-size: 17px;
+}
+.section-01 h2 {
+  text-align: right;
+  font-size: 12px;
+  color: grey;
+}
+.section-02 {
+  margin-top: -10px;
+}
+.section-02 p {
+  font-size: 13px;
+  color: grey;
+}
+.section-03 h5 {
+  font-size: 17px;
+  color: #007bff;
+}
+.section-03 p {
+  font-size: 13px;
+  color: grey;
+}
+.section-03 img {
+  float: right;
+  margin-left: 5px;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.horizontal_line hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 90%;
+  border-top: 1px solid #fff;
+}
+.sec-01 h5 {
+  font-size: 16px;
   color: #000;
+  font-weight: 500;
 }
-#network-head_02 p {
-  font-size: 14px !important;
-  color: #717171 !important;
+.sec-01 p {
+  margin-top: -4px;
+  text-align: right;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 0px;
 }
-#network-head_02 p button {
-  font-size: 14px;
-  background: #f15324;
-  border-color: #f15324;
+.sec-01 p button {
+  font-size: 15px;
+  background-color: #f15324;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px;
 }
-.network_logo {
+.top-content {
+  height: 444px;
+}
+.sec-02 {
   text-align: center;
-  display: block;
+  padding: 80px 0;
 }
-.network_logo h1 {
-  font-size: 25px;
+.sec-02 h5 {
+  padding-top: 15px;
 }
+.sec-02 p span a {
+  color: #f15324;
+  font-weight: 500;
+}
+/* media queries */
+/* 1179 */
+@media screen and (max-width: 1200px) {
+  .sec-01 h5 {
+    font-size: 16px;
+  }
+  .sec-01 p button {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .sec-01 p {
+    font-size: 13px;
+  }
+}
+/* 980 */
+@media screen and (max-width: 992px) {
+  .card {
+    margin-bottom: 10px;
+  }
+  .sec-01 h5 {
+    font-size: 14px;
+  }
+  .sec-01 p {
+    font-size: 11px;
+  }
+  .sec-01 p button {
+    font-size: 11px;
+    padding: 3px;
+    font-weight: 600;
+  }
+  .sec-02 h5 {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .sec-02 p {
+    font-size: 15px;
+    margin-top: -8px;
+  }
+  .box-01 h5 {
+    color: #fff;
+    font-size: 16px;
+  }
+  .box-02 h5 {
+    color: #fff;
+    font-size: 16px;
+  }
+  .box-03 h5 {
+    color: #fff;
+    font-size: 16px;
+  }
+  .box-03 h5 span {
+    font-size: 20px;
+  }
+  .box-02 h5 span {
+    font-size: 20px;
+  }
+  .box-01 h5 span {
+    font-size: 20px;
+  }
+}
+#time_date h5 {
+  font-size: 18px;
+}
+#time_date p {
+  font-size: 15px;
+}
+#date {
+  padding-top: 14px;
+}
+#cal p a {
+  width: 70px;
+}
+#cal p img {
+  margin-left: 5px;
+}
+.fa-link:before {
+  color: #fff;
+  font-size: 50px;
+}
+.fa-wifi:before {
+  content: "\f1eb";
+  color: #fff;
+  font-size: 50px;
+}
+/* 720 */
+@media screen and (max-width: 768px) {
+  .section-03 h5 {
+    font-size: 14px;
+    color: #007bff;
+  }
+  .heading h5 {
+    font-size: 20px;
+  }
+  .heading h2 {
+    font-size: 16px;
+  }
+  .section-01 h5 {
+    font-size: 17px;
+  }
+  .section-01 {
+    margin-top: 0px;
+  }
+  .section-02 p {
+    font-size: 14px;
+  }
+  .section-03 h5 {
+    font-size: 16px;
+  }
+  .section-03 img {
+    width: 20px;
+  }
+  .top-content {
+    height: 367px;
+  }
+  .sec-02 {
+    text-align: center;
+    padding: 65px 0;
+  }
+  .sec-01 h5 {
+    font-size: 17px;
+  }
+  .sec-01 p button {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .sec-01 p {
+    font-size: 13px;
+  }
+  .box-01 h5 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .box-02 h5 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .box-03 h5 {
+    color: #fff;
+    font-size: 22px;
+  }
+  .box-01 h5 span {
+    font-size: 26px;
+  }
+  .box-02 h5 span {
+    font-size: 26px;
+  }
+  .box-03 h5 span {
+    font-size: 26px;
+  }
+  .fa-link:before {
+    color: #fff;
+    font-size: 80px;
+  }
+  .fa-wifi:before {
+    content: "\f1eb";
+    color: #fff;
+    font-size: 70px;
+  }
+}
+/* 500 */
+@media screen and (max-width: 767px) {
+  .sec-01 h5 {
+    font-size: 15px;
+  }
+  #time_date p {
+    font-size: 14px;
+  }
+}
+/* 365 */
+/* @media screen and (max-width: 365px) {
+    } */
